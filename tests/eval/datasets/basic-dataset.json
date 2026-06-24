@@ -1,0 +1,18 @@
+{
+  "eval_cases": [
+    {
+      "eval_case_id": "shipping_tracking_query",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Where is my package? The tracking number is 987654."}]
+      }
+    },
+    {
+      "eval_case_id": "non_shipping_poem_query",
+      "prompt": {
+        "role": "user",
+        "parts": [{"text": "Can you write a short poem about the ocean?"}]
+      }
+    }
+  ]
+}
